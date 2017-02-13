@@ -1,2 +1,2 @@
 # chocolatey-keepassxc-package
-KeePassXC package for chocolatey
+KeePassXC (KeePass Cross-Platform Community Edition) package for chocolatey
