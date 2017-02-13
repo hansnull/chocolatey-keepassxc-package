@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>keepassxc</id>
+    <version>2.1.1</version>
+    <packageSourceUrl>https://github.com/hansnull/chocolatey-keepassxc-package</packageSourceUrl>
+    <owners>hans0</owners>
+    <title>KeePassXC (Install)</title>
+    <authors>https://keepassxc.org/team</authors>
+     <projectUrl>https://keepassxc.org/</projectUrl>
+    <iconUrl>https://keepassxc.org/logo-small.png</iconUrl>
+    <copyright>2016-2017 KeePassXC Team</copyright>
+    <licenseUrl>https://github.com/keepassxreboot/keepassxc/blob/develop/LICENSE.GPL-3</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/keepassxreboot/keepassxc</projectSourceUrl>
+    <docsUrl>https://keepassxc.org/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/keepassxreboot/keepassxc/issues</bugTrackerUrl>
+    <tags>keepassxc admin keepass keepassx keepassreboot</tags>
+    <summary>KeePassXC is a community fork of KeePassX which aims to incorporate stalled pull requests, features, and bug fixes that have never made it into the main KeePassX repository.</summary>
+    <description># KeePassXC - KeePass Cross-platform Community Edition
+## About
+KeePassXC is a fork of [KeePassX](https://www.keepassx.org/) that [aims to incorporate stalled pull requests, features, and bug fixes that have never made it into the main KeePassX repository](https://github.com/keepassxreboot/keepassx/issues/43).
+
+## Additional features compared to KeePassX
+- Autotype on all three major platforms (Linux, Windows, OS X)
+- Stand-alone password generator
+- Password strength meter
+- Use website's favicons as entry icons
+- Merging of databases
+- Automatic reload when the database changed on disk
+- KeePassHTTP support for use with [PassIFox](https://addons.mozilla.org/en-us/firefox/addon/passifox/) in Mozilla Firefox and [chromeIPass](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae) in Google Chrome or Chromium.
+	</description>
+    </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
