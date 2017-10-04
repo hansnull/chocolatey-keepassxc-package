@@ -3,7 +3,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>keepassxc</id>
-    <version>2.2.0</version>
+    <version>2.2.1</version>
     <packageSourceUrl>https://github.com/hansnull/chocolatey-keepassxc-package</packageSourceUrl>
     <owners>hans0</owners>
     <title>KeePassXC (Install)</title>
@@ -31,7 +31,7 @@ KeePassXC is a fork of [KeePassX](https://www.keepassx.org/) that [aims to incor
 - Automatic reload when the database changed on disk
 - KeePassHTTP support for use with [PassIFox](https://addons.mozilla.org/en-us/firefox/addon/passifox/) in Mozilla Firefox and [chromeIPass](https://chrome.google.com/webstore/detail/chromeipass/ompiailgknfdndiefoaoiligalphfdae) in Google Chrome or Chromium.
 	</description>
-	<releaseNotes>https://keepassxc.org/blog/2017-06-26-2.2.0-released/</releaseNotes>
+	<releaseNotes>https://keepassxc.org/blog/2017-10-02-2.2.1-released/</releaseNotes>
   </metadata>
   <files>
     <file src="tools\**" target="tools" />
