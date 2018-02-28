@@ -3,7 +3,7 @@ $ErrorActionPreference = 'Stop';
 
 $packageName= 'keepassxc'
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url64      = 'https://github.com/keepassxreboot/keepassxc/releases/download/2.2.4/KeePassXC-2.2.4-Win64.exe'
+$url64      = 'https://github.com/keepassxreboot/keepassxc/releases/download/2.3.0/KeePassXC-2.3.0-Win64.exe'
 
 $packageArgs = @{
   packageName   = $packageName
@@ -13,7 +13,7 @@ $packageArgs = @{
 
   softwareName  = 'KeePassXC'
 
-  checksum64    = '05bfd9faededf9bc5cbd5aa11805edadfe5bac1f6399346a5a62d4e262645af5'
+  checksum64    = '8daa0c73b362d1c9824031bc92a74591881a5f89f51a542563d500bc7f6071a0'
   checksumType64= 'sha256'
 
   validExitCodes= @(0, 3010, 1641)
