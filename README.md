@@ -1,2 +1,1 @@
-# chocolatey-keepassxc-package
-KeePassXC (KeePass Cross-Platform Community Edition) package for chocolatey
+This package has neen migrated to the [Chocolatey core team packages repository](https://github.com/chocolatey/chocolatey-coreteampackages/tree/master/automatic/keepassxc).
